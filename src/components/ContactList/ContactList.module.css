@@ -1,0 +1,25 @@
+/* .div{
+ 
+} */
+
+.li {
+  font-size: 20px;
+}
+
+.button {
+  margin-left: 5px;
+  vertical-align: text-bottom;
+  outline: none;
+  border-width: 1px;
+  border-radius: 5px;
+  background-color: white;
+  transition: border-color background-color linear 250ms;
+  font-size: 14px;
+  padding: 0 9px;
+}
+
+.button:focus,
+.button:hover {
+  border-color: rgba(0, 0, 208, 0.3);
+  cursor: pointer;
+}

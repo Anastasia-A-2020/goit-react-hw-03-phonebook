@@ -1,0 +1,16 @@
+.label {
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  outline: none;
+  width: 200px;
+  margin-bottom: 15px;
+  transition: border-color linear 250ms;
+}
+
+.input:hover,
+.input:focus {
+  border-color: rgba(0, 0, 208, 0.3);
+}
